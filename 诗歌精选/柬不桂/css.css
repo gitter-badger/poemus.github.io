@@ -1,0 +1,13 @@
+body { background-color:#ffffff; font-size:15px; font-family:'ËÎÌו','Arial', 'Helvetica', 'sans-serif'; color:#555; line-height:22px;letter-spacing:0.9pt; }
+.left { float:left; }
+.right { float:right; }
+.center{margin:0px auto; text-align:center;}
+.clear {clear:both;}
+a { color:#fe3200;text-decoration:none;}
+p{color:#666666;font-family:'ËÎÌו','Arial', 'Helvetica', 'sans-serif';font-size:15px;margin:1em 0;}
+.w960{width:960px; overflow:hidden; margin:0px auto; padding:0;/*position:relative;*/}
+.cont{margin-left:210px; margin-top:30px; padding-bottom:35px;font-size:18px;letter-spacing:0.4pt;}
+.tit{font-weight:bold; color:333; font-size:16px;letter-spacing:0.9pt;}
+.pline{ clear:both; margin-top:10px;}
+
+
