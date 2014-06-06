@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>诗歌聊天 WebSocket</title>
+    </head>
+    <body>
+        <h1>WebSocket : 诗歌聊天</h1>
+        <div style="text-align: center;">
+            <form action="" onsubmit="send_message();return false;"> 
+                
+                <table>
+                    <tr>
+                        <td>
+                            网友<br/>
+                            <textarea readonly="true" rows="12" cols="10" id="userField"></textarea>
+                        </td>
+                        <td>
+                            聊天记录<br/>
+                            <textarea readonly="true" rows="12" cols="50" id="chatlogField"></textarea> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input id="textField" name="name" value="Duke" type="text" size="80">
+                            <input onclick="send_message();" value="Chat" type="button"> <br>
+                            <input onclick="join();" value="Join" type="button"> 
+                            
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+        </div>
+        <div id="output"></div>
+        <script language="javascript" type="text/javascript" src="websocket.js"></script>
+
+    </body>
+</html>
