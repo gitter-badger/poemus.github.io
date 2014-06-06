@@ -28,7 +28,37 @@
 <p>原筱菲 原名郑迪菲，1993年4月出生，中国传媒大学动画与数字艺术学院学生……</p>
 </div>
 <div><h3>诗歌排行榜</h3></div>
-<div>诗友絮语</div>
+<div><h3>诗友絮语</h3>
+    <div>
+            <form action="" onsubmit="send_message();return false;"> 
+                
+                <table>
+                    <tr>
+                        <td>
+                            网友<br/>
+                            <textarea readonly="true" rows="12" cols="10" id="userField"></textarea>
+                        </td>
+                        <td>
+                            聊天记录<br/>
+                            <textarea readonly="true" rows="12" cols="50" id="chatlogField"></textarea> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input id="textField" name="name" value="Duke" type="text" size="80">
+                            <input onclick="send_message();" value="Chat" type="button"> <br>
+                            <input onclick="join();" value="Join" type="button"> 
+                            
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+        </div>
+        <div id="output"></div>
+        <script language="javascript" type="text/javascript" src="websocket.js"></script>
+
+</div>
 <div><a href="/PoemBuilder/">PoemBuilder</a> <a href="tree.html">诗歌精选</a></div>
 
 <script>
